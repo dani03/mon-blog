@@ -1,0 +1,118 @@
+body{
+	
+	padding:20px;
+	background-image: url("/blog/imageBlog/photo.jpg");
+	background-size: cover;
+}
+
+
+ h1{
+	text-align:center;
+	font-family: 'Merienda One', cursive;
+	font-size:57px;
+	text-transform: uppercase;
+	color:#fff;
+
+
+}
+
+img {
+	height: 79px;
+	border-radius: 4px;
+}
+
+
+
+li a{ 
+text-decoration: none;
+
+ }
+
+ *{
+ 	padding: 0;
+ 	margin:0;
+ }
+ .capter li {
+    list-style-type: none;
+    display:block;
+  	position:absolute;
+  	top:3px;
+  	left:0px;
+
+ }
+
+
+  .sousMenu li{
+  	list-style-type: none;
+  	margin-top:5px;
+  	display:block;
+  	position:absolute;
+  	top:0px;
+  	left:70px;
+
+  	/*border:1px solid green;*/
+  }
+
+   div ul li:hover .capter  {
+      display:block;
+
+}
+
+
+ .menu ul li {
+ 	text-align: center;
+   list-style-type: none;
+   float:left;
+ 	position :relative;
+ 	width: 90px;
+ 	margin-right:2px;
+ 	border-radius: 6px;
+
+ }
+
+ .contenue {
+ 	background-color: red;
+ }
+
+
+ .menu ul a {
+ 	width:80px;
+ 	height:40px;
+ 	line-height: 30px;
+ 	display: block;
+ 	background-color:white;
+ 	border-radius: 6px;
+ }
+
+.capter li a {
+
+	margin-top: 5px;
+	
+}
+
+main{
+	text-align: center;
+}
+.menu ul, .capter li, .sousMenu li{
+   /*outline:1px solid red;*/
+
+}
+.sousMenu  li a{
+	margin-left:17px;
+}
+
+.menu ul li:hover >a{
+	background-color:  #808b96;
+}
+
+
+.darrow{
+	position :absolute;
+	font-style:1px;
+	bottom:130px;
+	right:1px;
+	
+}
+.capter{
+	display :none;
+}
